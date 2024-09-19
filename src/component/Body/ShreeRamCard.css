@@ -1,0 +1,62 @@
+.card {
+    width: 100%;
+    overflow: hidden;
+    background: #f0f0f0; 
+    padding: 10px 20px; 
+    box-shadow: 0 4px 8px rgba(245, 220, 220, 0.951);
+    border-radius: 8px;
+    position: relative;
+    left: 0%; 
+  }
+  
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    animation: marquee 15s linear infinite; 
+  }
+  
+  .marquee p {
+    margin: 0 1rem; 
+    font-size: 20px; 
+    font-family: 'Noto Sans Devanagari', sans-serif; 
+    color: rgb(240, 6, 6);
+    display: inline-block; 
+    line-height: 1.5; 
+  }
+
+
+Copy code
+.social-icon {
+  width: 40px; 
+  height: 40px; 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(-100%); 
+    }
+    100% {
+      transform: translateX(100%); 
+    }
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media (max-width: 600px) {
+    .card {
+      padding: 5px 10px; 
+    }
+  
+    .marquee p {
+      font-size: 18px; 
+      margin: 0 1rem; 
+    }
+  }
+  
+  

@@ -1,0 +1,71 @@
+/* Thoughts.css */
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.4); 
+    color: rgb(248, 65, 65);
+    text-shadow: 0 0.5px 0.5px rgba(248, 102, 102, 0.88); 
+    padding: 20px;
+    border-radius: 25px;
+    width: 380px; 
+    height: 250px; 
+    box-shadow: 0 4px 8px rgba(185, 183, 183, 0.903); 
+    position: sticky; 
+    top: 25%; 
+    left: 20%; 
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    border: 2px solid rgba(255, 255, 255, 0.4); 
+    font-weight: 400;
+  }
+  
+.thoughts {
+  animation: swapPosition 8s steps(1, end) infinite;
+}
+
+@keyframes swapPosition {
+  0%, 100% {
+    transform: translateY(0px); 
+  }
+  50% {
+    transform: translateY(0px); 
+  }
+}
+
+
+.overlay p {
+  margin: 0;
+  font-size: 1.8rem; 
+  text-align: center;
+}
+
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .overlay {
+      width: 250px;
+      height: 150px; 
+      top: 20%; 
+      padding: 15px;
+      left: 30%; 
+      transform: translateX(-50%); 
+    }
+  
+    .overlay p {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlay {
+      width: 180px;
+      height: 130px; 
+      top: 13%; 
+      padding: 10px; 
+      left: 27%; 
+      transform: translateX(-50%); 
+    }
+  
+    .overlay p {
+      font-size: 0.9rem; 
+    }
+  }
+  

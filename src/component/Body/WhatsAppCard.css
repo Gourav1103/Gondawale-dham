@@ -1,0 +1,162 @@
+.whatsapp-channel-ui {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e5ddd5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .channel-header {
+    background-color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .channel-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .channel-info {
+    flex-grow: 1;
+  }
+  
+  .channel-info h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .channel-info p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .channel-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mute-icon, .menu-icon {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* "Today" card styling */
+  .date-card {
+    background-color: #fff; 
+    text-align: center;
+    padding: 8px;
+    margin: 10px auto; 
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: #333;
+    height: 40px;
+    width: 30%; 
+  }
+  
+  .message, .media-message {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 65%;
+  }
+  
+  .message-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .media-message .media {
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  .media-caption {
+    font-size: 14px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  
+  .animated-message {
+    width:fit-content;
+    padding: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards ease-in-out;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/* Follow Button Styling */
+.follow-button-link {
+  text-decoration: none; 
+}
+
+.follow-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.follow-button.following {
+  background-color: #128c7e;
+}
+
+.follow-button.shake {
+  animation: shake-animation 0.5s ease;
+}
+
+/* Shake Animation */
+@keyframes shake-animation {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+  
+.message, .media-message {
+    padding: 8px 10px;
+    margin: 8px 0;
+}
+  
