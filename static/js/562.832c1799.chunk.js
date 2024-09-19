@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[562],{562:(a,s,e)=>{e.r(s),e.d(s,{default:()=>n});e(43);var r=e(579);const n=()=>(0,r.jsx)("div",{className:"ram-nam-background",role:"presentation",children:(()=>{const a=[];for(let s=0;s<1200;s++)a.push((0,r.jsx)("span",{className:"ram-nam",children:"\u0930\u093e\u092e"},`ram-${s}`));return a})()})}}]);
+//# sourceMappingURL=562.832c1799.chunk.js.map
