@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Gondawale-dham/static/css/main.df7b121d.css",
-    "main.js": "/Gondawale-dham/static/js/main.d0fcc295.js",
+    "main.js": "/Gondawale-dham/static/js/main.6643bf99.js",
     "static/css/562.5e51e92e.chunk.css": "/Gondawale-dham/static/css/562.5e51e92e.chunk.css",
     "static/js/562.832c1799.chunk.js": "/Gondawale-dham/static/js/562.832c1799.chunk.js",
-    "static/css/433.d9bc2cb3.chunk.css": "/Gondawale-dham/static/css/433.d9bc2cb3.chunk.css",
+    "static/css/433.90a4b5d7.chunk.css": "/Gondawale-dham/static/css/433.90a4b5d7.chunk.css",
     "static/js/433.e04eb8ff.chunk.js": "/Gondawale-dham/static/js/433.e04eb8ff.chunk.js",
     "static/css/816.dcc69ddd.chunk.css": "/Gondawale-dham/static/css/816.dcc69ddd.chunk.css",
     "static/js/816.95954d70.chunk.js": "/Gondawale-dham/static/js/816.95954d70.chunk.js",
@@ -34,10 +34,10 @@
     "static/media/slick.woff": "/Gondawale-dham/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Gondawale-dham/index.html",
     "main.df7b121d.css.map": "/Gondawale-dham/static/css/main.df7b121d.css.map",
-    "main.d0fcc295.js.map": "/Gondawale-dham/static/js/main.d0fcc295.js.map",
+    "main.6643bf99.js.map": "/Gondawale-dham/static/js/main.6643bf99.js.map",
     "562.5e51e92e.chunk.css.map": "/Gondawale-dham/static/css/562.5e51e92e.chunk.css.map",
     "562.832c1799.chunk.js.map": "/Gondawale-dham/static/js/562.832c1799.chunk.js.map",
-    "433.d9bc2cb3.chunk.css.map": "/Gondawale-dham/static/css/433.d9bc2cb3.chunk.css.map",
+    "433.90a4b5d7.chunk.css.map": "/Gondawale-dham/static/css/433.90a4b5d7.chunk.css.map",
     "433.e04eb8ff.chunk.js.map": "/Gondawale-dham/static/js/433.e04eb8ff.chunk.js.map",
     "816.dcc69ddd.chunk.css.map": "/Gondawale-dham/static/css/816.dcc69ddd.chunk.css.map",
     "816.95954d70.chunk.js.map": "/Gondawale-dham/static/js/816.95954d70.chunk.js.map",
@@ -57,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.df7b121d.css",
-    "static/js/main.d0fcc295.js"
+    "static/js/main.6643bf99.js"
   ]
 }
