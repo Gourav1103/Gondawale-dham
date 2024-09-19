@@ -8,7 +8,7 @@
     width: 380px; 
     height: 250px; 
     box-shadow: 0 4px 8px rgba(185, 183, 183, 0.903); 
-    position: sticky; 
+    position: relative; 
     top: 25%; 
     left: 20%; 
     transform: translateX(-50%); 
@@ -56,16 +56,16 @@
   
   @media (max-width: 480px) {
     .overlay {
-      width: 180px;
-      height: 130px; 
-      top: 13%; 
+      width: 160px;
+      height: 110px; 
+      top: 40%; 
       padding: 10px; 
-      left: 27%; 
+      left:0%; 
       transform: translateX(-50%); 
     }
   
     .overlay p {
-      font-size: 0.9rem; 
+      font-size: 0.8rem; 
     }
   }
   
