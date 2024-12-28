@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
-import logo from '../Images/Gondawale_Dham_Logo.jpeg';
+import logo from '../Images/Hari_Hat_logo2.png';
 import logo2 from '../Images/Maharaj_ji.jpeg';
 import Thoughts from '../Body/thoughts';
 

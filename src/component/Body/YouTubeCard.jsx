@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './YouTubeCard.css';
 import headerImage from '../Images/header-back.jpeg';
-import profileImage from '../Images/Maharaj_ji.jpeg';
+import profileImage from '../Images/Hari_Hat_logo2.png';
 
 const YoutubeCard = () => {
   const [isShaking, setIsShaking] = useState(false);
@@ -66,7 +66,7 @@ const YoutubeCard = () => {
           className={isSubscribed ? 'subscribed' : ''} 
           onClick={handleSubscribeClick}
         >
-          {isSubscribed ? 'Subscribed' : 'Subscribe'}
+          {isSubscribed ? 'Clicked' : 'Click'}
         </button>
       </div>
     </div>

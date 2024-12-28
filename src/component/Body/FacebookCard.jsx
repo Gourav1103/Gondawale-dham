@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FacebookCard.css';
 import headerImage from '../Images/header-back.jpeg';
-import profilePic from '../Images/Gondawale_Dham_Logo.jpeg';
+import profilePic from '../Images/Harihat_logo.jpeg';
 
 const FacebookCard = () => {
   const [isFollowed, setIsFollowed] = useState(false);
@@ -45,7 +45,7 @@ const FacebookCard = () => {
               className={isFollowed ? 'followed' : ''}
               onClick={handleFollow}
             >
-              {isFollowed ? 'Followed' : 'Follow'}
+              {isFollowed ? 'Clicked' : 'Click'}
             </button>
           </a>
         </div>

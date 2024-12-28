@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './InstagramCard.css';
-import logo1 from '../Images/Instagram_Profile.jpeg'; 
+import logo1 from '../Images/Hari_Hat_logo2.png'; 
 import reel1 from '../Images/Instagram_Reel_1.jpeg'; 
 import reel2 from '../Images/Instagram_Reel_2.png';
 import instaFollowLogo from '../Images/instagram_follow.jpeg';
@@ -35,7 +35,7 @@ const InstagramCard = () => {
     name: "Gondawale Dham Indore",
     description: "आधिकारिक पृष्ठ\nसदगुरु श्री ब्रह्मचैतन्य गोंदवलेकर महाराज\nगुरुदेव श्री श्रीराम कोकजे जी ...",
     posts: 500,
-    followers: 1900,
+    followers: 2013,
     following: 0
   };
 
