@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Gondawale-dham/static/css/main.df7b121d.css",
-    "main.js": "/Gondawale-dham/static/js/main.b00307a1.js",
+    "main.js": "/Gondawale-dham/static/js/main.d8f566ca.js",
     "static/css/562.5e51e92e.chunk.css": "/Gondawale-dham/static/css/562.5e51e92e.chunk.css",
     "static/js/562.832c1799.chunk.js": "/Gondawale-dham/static/js/562.832c1799.chunk.js",
-    "static/css/730.1041baab.chunk.css": "/Gondawale-dham/static/css/730.1041baab.chunk.css",
-    "static/js/730.2b9c970b.chunk.js": "/Gondawale-dham/static/js/730.2b9c970b.chunk.js",
+    "static/css/730.b3f73eea.chunk.css": "/Gondawale-dham/static/css/730.b3f73eea.chunk.css",
+    "static/js/730.ed1e0b5a.chunk.js": "/Gondawale-dham/static/js/730.ed1e0b5a.chunk.js",
     "static/css/816.dcc69ddd.chunk.css": "/Gondawale-dham/static/css/816.dcc69ddd.chunk.css",
     "static/js/816.95954d70.chunk.js": "/Gondawale-dham/static/js/816.95954d70.chunk.js",
     "static/css/257.fb5a6384.chunk.css": "/Gondawale-dham/static/css/257.fb5a6384.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/Instagram_Reel_1.jpeg": "/Gondawale-dham/static/media/Instagram_Reel_1.da9d16b64f78b45276f8.jpeg",
     "static/media/header-back1.jpg": "/Gondawale-dham/static/media/header-back1.e61221b017ad11f83e4e.jpg",
     "static/media/Hari_Hat_logo2.png": "/Gondawale-dham/static/media/Hari_Hat_logo2.914bdc5c65b4713eafed.png",
+    "static/media/HariHat_back.jpeg": "/Gondawale-dham/static/media/HariHat_back.c6c978bac272d7a4e4d8.jpeg",
     "static/media/Instagram_Reel_2.png": "/Gondawale-dham/static/media/Instagram_Reel_2.28d53a480b2c0a1a1546.png",
     "static/media/Guruji_harihat.jpeg": "/Gondawale-dham/static/media/Guruji_harihat.0406c4736bf88d4b5de1.jpeg",
     "static/media/Harihat_logo.jpeg": "/Gondawale-dham/static/media/Harihat_logo.f94fda33a1ac8e79c402.jpeg",
@@ -35,11 +36,11 @@
     "static/media/slick.woff": "/Gondawale-dham/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Gondawale-dham/index.html",
     "main.df7b121d.css.map": "/Gondawale-dham/static/css/main.df7b121d.css.map",
-    "main.b00307a1.js.map": "/Gondawale-dham/static/js/main.b00307a1.js.map",
+    "main.d8f566ca.js.map": "/Gondawale-dham/static/js/main.d8f566ca.js.map",
     "562.5e51e92e.chunk.css.map": "/Gondawale-dham/static/css/562.5e51e92e.chunk.css.map",
     "562.832c1799.chunk.js.map": "/Gondawale-dham/static/js/562.832c1799.chunk.js.map",
-    "730.1041baab.chunk.css.map": "/Gondawale-dham/static/css/730.1041baab.chunk.css.map",
-    "730.2b9c970b.chunk.js.map": "/Gondawale-dham/static/js/730.2b9c970b.chunk.js.map",
+    "730.b3f73eea.chunk.css.map": "/Gondawale-dham/static/css/730.b3f73eea.chunk.css.map",
+    "730.ed1e0b5a.chunk.js.map": "/Gondawale-dham/static/js/730.ed1e0b5a.chunk.js.map",
     "816.dcc69ddd.chunk.css.map": "/Gondawale-dham/static/css/816.dcc69ddd.chunk.css.map",
     "816.95954d70.chunk.js.map": "/Gondawale-dham/static/js/816.95954d70.chunk.js.map",
     "257.fb5a6384.chunk.css.map": "/Gondawale-dham/static/css/257.fb5a6384.chunk.css.map",
@@ -58,6 +59,6 @@
   },
   "entrypoints": [
     "static/css/main.df7b121d.css",
-    "static/js/main.b00307a1.js"
+    "static/js/main.d8f566ca.js"
   ]
 }
